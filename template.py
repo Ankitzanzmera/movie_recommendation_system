@@ -19,6 +19,7 @@ list_of_files = [
     f"src/{project_name}/utils/exception.py",
     "app.py",
     "main.py",
+    "setup.py"
 ]
 
 for filepath in list_of_files:
