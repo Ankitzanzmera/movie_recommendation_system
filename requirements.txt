@@ -5,5 +5,7 @@ matplotlib
 gdown==4.6.0
 scipy
 scikit-learn
-
+ensure
+python-box
+pyYAML
 -e .
