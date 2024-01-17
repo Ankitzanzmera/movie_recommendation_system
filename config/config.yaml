@@ -5,3 +5,9 @@ data_ingestion:
   source: https://github.com/Ankitzanzmera/data_repository/raw/main/movie_dataset.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion/data/
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  movies_data: artifacts/data_ingestion/data/tmdb_5000_movies.csv
+  credits_data: artifacts/data_ingestion/data/tmdb_5000_credits.csv
+  cleaned_data_path: artifacts/data_transformation/cleaned.csv
