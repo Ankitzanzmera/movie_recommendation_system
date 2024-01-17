@@ -8,4 +8,6 @@ scikit-learn
 ensure
 python-box
 pyYAML
+nltk
+streamlit
 -e .

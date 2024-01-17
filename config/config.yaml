@@ -11,3 +11,8 @@ data_transformation:
   movies_data: artifacts/data_ingestion/data/tmdb_5000_movies.csv
   credits_data: artifacts/data_ingestion/data/tmdb_5000_credits.csv
   cleaned_data_path: artifacts/data_transformation/cleaned.csv
+
+prediction:
+  root_dir: artifacts/prediction/
+  similarity_path: artifacts/prediction/similarity.pkl
+  movie_dict: artifacts/prediction/movie_dict.pkl
